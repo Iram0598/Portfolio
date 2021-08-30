@@ -14,6 +14,9 @@
     
     
 }
+.text{
+    text-align: center;
+}
 #pic{
     border-radius: 47%;
     width: 200px;
@@ -98,5 +101,51 @@
 #ins:hover{
     font-size: 40px;
 }
+#header{
+    
+    font-size: 50px;
+    text-align: center;
+    
+    background-color: rgb(56, 129, 56);
+    border-bottom: 2px;
+    padding-bottom: 2px;
+}
+.second{
+    border-style: solid;
+    display: flex;
+    margin-right: 710px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.slideshow{
+    position: relative;
+    width: 700px; 
+    position: absolute;
+    top: 93px;
+    right: 5px;
+    overflow: hidden;
+    
+}
+.head{
+    position: relative;
+}
+
+.slideshow figure{
+    position: relative;
+    width: 700px;
+    margin: 0px;
+    left: 0px;
+    animation: 20s slideshow infinite;
+
+}
+.slideshow figure img{
+    width: 20%;
+    float: left;
+}
+
+
+
 
 
