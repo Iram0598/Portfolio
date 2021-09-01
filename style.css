@@ -9,13 +9,14 @@
     
 }
 .main{
-    background-color: rgb(253, 253, 253);
-    background-image: url('White_Abstract_5241852.jpg');
+    background-color: rgb(41, 41, 41);
+   
     
     
 }
 .text{
     text-align: center;
+    color: rgb(179, 179, 179);
 }
 #pic{
     border-radius: 47%;
@@ -29,68 +30,79 @@
 
 
 .bio{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
-
+    color: rgb(255, 255, 255);
+    transition: 2ms;
     
 }
 
 .skills{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
     
 }
 .exp{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
 }
     
 .port{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
     
 }
 .res{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
     
 }
 .cont{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
-    color: green;
+    color: rgb(255, 255, 255);
     
 }
 .bio:hover{
-    font-size: 60px;
+    font-size: 35px;
+   
 }
 .skills:hover{
-    font-size: 60px;
+    font-size: 35px;
 }
 .exp:hover{
-    font-size: 60px;
+    font-size: 35px;
 
 }
 .port:hover{
-    font-size: 60px;
+    font-size: 35px;
 }
 .res:hover{
-    font-size: 60px;
+    font-size: 35px;
 }
 .cont:hover{
-    font-size: 60px;
+    font-size: 35px;
 }
 
 .icons{
     
     font-size: 20px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 45%;
+   
+}
+#facebook{
+    color: white;
+}
+#utube{
+    color: white;
+}
+#ins{
+    color: white;
 }
 #facebook:hover{
     font-size: 40px;
@@ -101,50 +113,128 @@
 #ins:hover{
     font-size: 40px;
 }
-#header{
+
+/*Biography page*/
+
+.front{
+   background-image: url('512679.jpg');
+   margin-bottom: 0%;
+}
+
+
+.header{
     
     font-size: 50px;
     text-align: center;
-    
-    background-color: rgb(56, 129, 56);
+    background-color: rgb(146, 146, 146);
+    margin-right: 500px;
+    margin-left: 500px;
     border-bottom: 2px;
     padding-bottom: 2px;
+    transition:  2s;
+    color: antiquewhite;
 }
+
+
 .second{
+    color: rgb(235, 230, 230);
+    display: flex;
+    margin-right: 0%;
+    margin-left: 50%;
+    text-align: right;
+}
+.third{
+    color: rgb(235, 230, 230);
+    display: flex;
+    margin-right: 0%;
+    margin-left: 50%;
+    text-align: right;
+    
+}
+.fourth{
+    color: rgb(235, 230, 230);
+    display: flex;
+    margin-right: 0%;
+    margin-left: 50%;
+    text-align: right;
+}
+.fifth{
+    color: rgb(235, 230, 230);
+    display: flex;
+    margin-right: 0%;
+    margin-left: 50%;
+    text-align: right;
+}
+.sixth{
     border-style: solid;
+    border-radius: 15px;
+    color: rgb(235, 230, 230);
     display: flex;
     margin-right: 710px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.slideshow{
-    position: relative;
-    width: 700px; 
-    position: absolute;
-    top: 93px;
-    right: 5px;
-    overflow: hidden;
+    margin-right: 0%;
+    margin-left: 50%;
+    margin-bottom: 40px;
     
 }
-.head{
-    position: relative;
+.slideshow{
+    float: left;
+    
+}
+.inside{
+     
+      margin-top: 100px;
+      margin-bottom: 0px;
+    
 }
 
 .slideshow figure{
-    position: relative;
-    width: 700px;
-    margin: 0px;
-    left: 0px;
-    animation: 20s slideshow infinite;
-
+   float: left;
 }
 .slideshow figure img{
     width: 20%;
     float: left;
 }
 
+
+
+.front{
+    background-color: rgb(41, 41, 41);
+  
+}
+
+.picture{
+    position: relative;
+    bottom: 500px;
+    width: 650px;
+    height: 1200px;
+    margin-left: 10px;
+   border-radius: 20px;
+   margin-bottom: 0px;
+    
+}
+.pagination {
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 180px;
+  }
+  
+  .pagination a {
+    color: rgb(250, 248, 248);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 
 
 
