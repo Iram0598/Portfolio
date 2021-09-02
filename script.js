@@ -1,14 +1,11 @@
-var index = 0;
-carousel();
+let text = document.getElementsByClassName('bio');
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("Slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (index > x.length) {index = 1}    
-  x[index-1].style.display = "block";  
-  setTimeout(carousel, 2000);
+text.onmouseover=function()
+{
+  document.getElementsById('p1').style.display = 'none';
+  document.getElementsById('p2').style.display = 'none';
+  document.getElementsById('p3').style.display = 'none';
+  document.getElementsById('p4').style.display = 'none';
+  document.getElementsById('p5').style.display = 'none';
+  
 }

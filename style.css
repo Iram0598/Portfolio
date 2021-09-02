@@ -1,3 +1,7 @@
+
+
+
+
 .nav{
     margin-left: 30%;
     margin-top: 5%;
@@ -34,6 +38,8 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 2ms;
+    background: none;
+    border: none;
     
 }
 
@@ -41,6 +47,8 @@
     font-size: 25px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    background: none;
+    border: none;
     
 }
 .exp{
@@ -118,7 +126,7 @@
 
 .front{
    background-image: url('512679.jpg');
-   margin-bottom: 0%;
+   bottom: 0px;
 }
 
 
@@ -236,6 +244,7 @@
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
+  
 
 
 
