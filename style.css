@@ -13,7 +13,7 @@
     
 }
 .main{
-    background-color: rgb(41, 41, 41);
+    background-image: url('1129027.jpg');
    
     
     
@@ -227,7 +227,7 @@
 .pagination {
     display: inline-block;
     color: white;
-    position: relative;
+    text-align: center;
     left: 180px;
   }
   
@@ -238,11 +238,11 @@
     text-decoration: none;
   }
   .pagination a.active {
-    background-color: #4CAF50;
+    background-color: #53d457;
     color: white;
   }
   
-  .pagination a:hover:not(.active) {background-color: #ddd;}
+  .pagination a:hover:not(.active) {background-color: rgb(20, 160, 27);}
 
   
 
