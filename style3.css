@@ -1,3 +1,155 @@
 .front4{
-    background-image: url('black-bricks-background.jpg');
+    background-image: url('66-668814_m.jpg');
+}
+.green{
+    color: rgb(250, 249, 249);
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 400%;
+    text-align: left;
+    transition: 2s;
+
+}
+.head2{
+    color: aliceblue;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 120%;
+    transition: 2s;
+
+}
+.btn3{
+    width: 50%;
+    height: 50%;
+    font-size: 70%;
+    text-decoration: wavy;
+    background-color: rgb(47, 73, 47);
+    color: aliceblue;
+    border: 1px solid rgb(47, 73, 47);
+
+}
+.btn3:hover{
+    background-color: green;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.pagination {
+  
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 28%;
+    
+   
+  }
+  
+  .pagination a {
+    color: rgb(250, 248, 248);
+    text-align: center;
+    padding: 8px 16px;
+    
+    
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30);}
+
+  /*Resume*/
+
+.front5{
+    background-image: url('photo-1526655805340-274e69922288.jpg');
+}
+.white{
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-size: 350%;
+    margin-top: 5%;
+    transition: 2s;
+}
+
+
+.img4 img{
+    width: 20%;
+    margin-left: 40%;
+    border: 2px solid #4CAF50;
+    text-align: center;
+   
+    
+}
+.img4 img:hover{
+    box-shadow:2px 2px 10px rgb(236, 234, 234);
+    transition: 0.2s;
+}
+.download{
+    text-align: center;
+    bottom: 200%;
+    color: aliceblue;
+    font-size: 150%;
+    background-color: rgb(137, 146, 146);
+    padding-bottom: 3%;
+    padding-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn5 {
+    background-color: rgb(4, 138, 44);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+.btn5:hover{
+    box-shadow: 2px 2px 10px rgb(236, 234, 234);
+}
+
+/*Contact*/
+
+.front6{
+    background-image: url('1129027.jpg');
+    margin-bottom: 0%;
+}
+.blue{
+    text-align: left;
+    color: aliceblue;
+    font-size: 350%;
+    margin-left: 5%;
+    transition: 2s;
+    
+}
+
+.details{
+    color: aliceblue;
+    margin-left: 5%;
+}
+.gmap_canvas{
+
+  transition: 2s;
+  margin-bottom: 0%;
+  margin-left: 5%;
+}
+.form{
+    background-color: rgb(27, 27, 27);
+    font-size: 100%;
+    margin-right: 20%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border: 3px solid red;
+}
+#fname{
+    width: 20%;
+    height: 50%;
+}
+#sub{
+    background-color: red;
+    border: solid red;
+    color: aliceblue;
 }
