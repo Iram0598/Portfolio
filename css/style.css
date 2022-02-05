@@ -13,8 +13,8 @@
     
 }
 .main{
-    background-image: url('1129027.jpg');
-   
+    background-image: url("..images\1129027.jpg");
+    background-color: rgb(37, 37, 36);
     
     
 }
@@ -77,23 +77,29 @@
 }
 .bio:hover{
     font-size: 35px;
+    transition: 0.5s;
    
 }
 .skills:hover{
     font-size: 35px;
+    transition: 0.5s;
 }
 .exp:hover{
     font-size: 35px;
+    transition: 0.5s;
 
 }
 .port:hover{
     font-size: 35px;
+    transition: 0.5s;
 }
 .res:hover{
     font-size: 35px;
+    transition: 0.5s;
 }
 .cont:hover{
     font-size: 35px;
+    transition: 0.5s;
 }
 
 .icons{
@@ -123,9 +129,13 @@
 }
 
 /*Biography page*/
+*{
+    padding: 0;
+    margin: 0;
 
+}
 .front{
-   background-image: url('512679.jpg');
+   background-image: url('C:\Users\musta\OneDrive\Documents\GitHub\Portfolio\images\profile.jpg');
    bottom: 0px;
 }
 
@@ -142,7 +152,9 @@
     transition:  2s;
     color: antiquewhite;
 }
-
+ .head{
+     height: 100px;
+ }
 
 .second{
     color: rgb(235, 230, 230);
@@ -174,18 +186,19 @@
     text-align: right;
 }
 .sixth{
-    border-style: solid;
+    border-style: none;
     border-radius: 15px;
     color: rgb(235, 230, 230);
     display: flex;
     margin-right: 710px;
-    padding-left: 10px;
+    padding-left: 1px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 0%;
     margin-left: 50%;
     margin-bottom: 40px;
+    font-size: 130%;
     
 }
 .slideshow{
@@ -210,20 +223,26 @@
 
 
 .front{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
+    
+
   
 }
-
 .picture{
-    position: relative;
-    bottom: 500px;
-    width: 650px;
-    height: 1200px;
-    margin-left: 10px;
-   border-radius: 20px;
-   margin-bottom: 0px;
+    height: 1100px;
+}
+.text{
+    font-size: 450%;
+    text-decoration: none;
+}
+.text:hover{
+    text-decoration: solid;
+    color: aliceblue;
     
 }
+
+    
+
 .pagination {
     display: inline-block;
     color: white;
