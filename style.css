@@ -231,11 +231,11 @@
 .picture{
     height: 1100px;
 }
-.text{
+.graph{
     font-size: 450%;
     text-decoration: none;
 }
-.text:hover{
+.graph:hover{
     text-decoration: solid;
     color: aliceblue;
     
