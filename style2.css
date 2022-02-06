@@ -79,7 +79,7 @@ background-image: url('grey.jpg');
     color: white;
   }
   
-  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30);}
+  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30); font-size: 160%;}
 
   /*Experiences*/
 

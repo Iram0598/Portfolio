@@ -38,10 +38,7 @@
   
     color: white;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-left: 28%;
-    
+    margin-top: 5%;
    
   }
   
@@ -58,7 +55,7 @@
     color: white;
   }
   
-  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30);}
+  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30); font-size: 160%;}
 
   /*Resume*/
 
@@ -153,3 +150,17 @@
     border: solid red;
     color: aliceblue;
 }
+.pagination a {
+    color: rgb(250, 248, 248);
+    text-align: center;
+    padding: 8px 16px;
+    
+    
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(18, 88, 30); font-size: 160%;}

@@ -186,10 +186,10 @@
     text-align: right;
 }
 .sixth{
-    border-style: none;
+    border-style: solid;
     border-radius: 15px;
     color: rgb(235, 230, 230);
-    display: flex;
+   
     margin-right: 710px;
     padding-left: 1px;
     padding-right: 10px;
@@ -199,6 +199,8 @@
     margin-left: 50%;
     margin-bottom: 40px;
     font-size: 130%;
+   
+    height: 900px;
     
 }
 .slideshow{
@@ -232,8 +234,9 @@
     height: 1100px;
 }
 .graph{
-    font-size: 450%;
+    font-size: 400%;
     text-decoration: none;
+    color: antiquewhite;
 }
 .graph:hover{
     text-decoration: solid;
@@ -244,24 +247,35 @@
     
 
 .pagination {
-    display: inline-block;
+    
     color: white;
-    text-align: center;
-    left: 180px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 30px;
+    
+
+    
   }
   
   .pagination a {
     color: rgb(250, 248, 248);
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
+    float: right;
+    
+    padding: 20%;
+    
+    list-style-type: none;
   }
-  .pagination a.active {
+  .pagination a:hover {
     background-color: #53d457;
     color: white;
+    font-size: 160%;
   }
   
-  .pagination a:hover:not(.active) {background-color: rgb(20, 160, 27);}
+  
 
   
 
