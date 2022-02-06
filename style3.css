@@ -1,5 +1,8 @@
 .front4{
     background-image: url('66-668814_m.jpg');
+    animation-name: iram;
+   animation-duration: 1s;
+   
 }
 .green{
     color: rgb(250, 249, 249);
@@ -33,6 +36,16 @@
     color: white;
     transition: .5s;
     cursor: pointer;
+}
+@keyframes iram{
+    from{
+          width: 20%;
+          opacity: 20%;
+    }
+    to{
+        width: 100%;
+          opacity: 100%;
+    }
 }
 .pagination {
   

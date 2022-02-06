@@ -7,6 +7,8 @@
     margin-top: 5%;
     margin-right: 30%;
     margin-bottom: 10%;
+    animation-name: iram;
+   animation-duration: 2s;
    
     
     
@@ -127,6 +129,16 @@
 #ins:hover{
     font-size: 40px;
 }
+@keyframes iram{
+    from{
+          
+          opacity: 20%;
+    }
+    to{
+        
+          opacity: 100%;
+    }
+}
 
 /*Biography page*/
 *{
@@ -169,6 +181,9 @@
     margin-right: 0%;
     margin-left: 50%;
     text-align: right;
+    animation-name: iram;
+   animation-duration: 2s;
+   
     
 }
 .fourth{
@@ -177,6 +192,9 @@
     margin-right: 0%;
     margin-left: 50%;
     text-align: right;
+    animation-name: iram;
+   animation-duration: 2s;
+   
 }
 .fifth{
     color: rgb(235, 230, 230);
@@ -184,6 +202,9 @@
     margin-right: 0%;
     margin-left: 50%;
     text-align: right;
+    animation-name: iram;
+   animation-duration: 2s;
+   
 }
 .sixth{
     border-style: solid;
@@ -201,6 +222,9 @@
     font-size: 130%;
    
     height: 900px;
+    animation-name: iram;
+   animation-duration: 2s;
+   
     
 }
 .slideshow{
@@ -232,6 +256,9 @@
 }
 .picture{
     height: 1100px;
+    animation-name: iram;
+   animation-duration: 2s;
+   
 }
 .graph{
     font-size: 400%;
@@ -243,6 +270,17 @@
     color: aliceblue;
     
 }
+@keyframes iram{
+    from{
+          
+          opacity: 20%;
+    }
+    to{
+        
+          opacity: 100%;
+    }
+}
+
 
     
 
